@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5907EC3729525F26007F4D2C /* TakenDate+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5907EC3629525F26007F4D2C /* TakenDate+convenience.swift */; };
 		593AD231294287AD006595CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD230294287AD006595CC /* AppDelegate.swift */; };
 		593AD233294287AD006595CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD232294287AD006595CC /* SceneDelegate.swift */; };
-		593AD235294287AD006595CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD234294287AD006595CC /* ViewController.swift */; };
 		593AD238294287AD006595CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593AD236294287AD006595CC /* Main.storyboard */; };
 		593AD23B294287AD006595CC /* MedicationManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 593AD239294287AD006595CC /* MedicationManager.xcdatamodeld */; };
 		593AD23D294287AE006595CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593AD23C294287AE006595CC /* Assets.xcassets */; };
 		593AD240294287AE006595CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593AD23E294287AE006595CC /* LaunchScreen.storyboard */; };
+		593AD249294295FE006595CC /* MedicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD248294295FE006595CC /* MedicationListViewController.swift */; };
+		593AD24B2942960E006595CC /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD24A2942960E006595CC /* MedicationDetailViewController.swift */; };
+		593AD24E294297AE006595CC /* MedicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD24D294297AE006595CC /* MedicationTableViewCell.swift */; };
+		593AD2582942C6DD006595CC /* MedicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD2572942C6DD006595CC /* MedicationController.swift */; };
+		593AD25A2942C998006595CC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD2592942C998006595CC /* CoreDataStack.swift */; };
+		593AD25C2942CDE4006595CC /* Medication+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD25B2942CDE4006595CC /* Medication+convenience.swift */; };
+		593AD25E2943C36D006595CC /* dateFormatter+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AD25D2943C36D006595CC /* dateFormatter+Extras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5907EC3629525F26007F4D2C /* TakenDate+convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TakenDate+convenience.swift"; sourceTree = "<group>"; };
 		593AD22D294287AD006595CC /* MedicationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		593AD230294287AD006595CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		593AD232294287AD006595CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		593AD234294287AD006595CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		593AD237294287AD006595CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		593AD23A294287AD006595CC /* MedicationManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicationManager.xcdatamodel; sourceTree = "<group>"; };
 		593AD23C294287AE006595CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		593AD23F294287AE006595CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		593AD241294287AE006595CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593AD248294295FE006595CC /* MedicationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListViewController.swift; sourceTree = "<group>"; };
+		593AD24A2942960E006595CC /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
+		593AD24D294297AE006595CC /* MedicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationTableViewCell.swift; sourceTree = "<group>"; };
+		593AD2572942C6DD006595CC /* MedicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationController.swift; sourceTree = "<group>"; };
+		593AD2592942C998006595CC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		593AD25B2942CDE4006595CC /* Medication+convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medication+convenience.swift"; sourceTree = "<group>"; };
+		593AD25D2943C36D006595CC /* dateFormatter+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "dateFormatter+Extras.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,71 @@
 		593AD22F294287AD006595CC /* MedicationManager */ = {
 			isa = PBXGroup;
 			children = (
-				593AD230294287AD006595CC /* AppDelegate.swift */,
-				593AD232294287AD006595CC /* SceneDelegate.swift */,
-				593AD234294287AD006595CC /* ViewController.swift */,
-				593AD236294287AD006595CC /* Main.storyboard */,
-				593AD23C294287AE006595CC /* Assets.xcassets */,
-				593AD23E294287AE006595CC /* LaunchScreen.storyboard */,
-				593AD241294287AE006595CC /* Info.plist */,
-				593AD239294287AD006595CC /* MedicationManager.xcdatamodeld */,
+				593AD25429429805006595CC /* Storyboards */,
+				593AD250294297C5006595CC /* ViewControllers */,
+				593AD251294297CD006595CC /* CustomViews */,
+				593AD25529429830006595CC /* ModelControllers */,
+				593AD252294297D8006595CC /* CoreData */,
+				593AD253294297EC006595CC /* Resources */,
 			);
 			path = MedicationManager;
+			sourceTree = "<group>";
+		};
+		593AD250294297C5006595CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				593AD248294295FE006595CC /* MedicationListViewController.swift */,
+				593AD24A2942960E006595CC /* MedicationDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		593AD251294297CD006595CC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				593AD24D294297AE006595CC /* MedicationTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		593AD252294297D8006595CC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				593AD239294287AD006595CC /* MedicationManager.xcdatamodeld */,
+				593AD2592942C998006595CC /* CoreDataStack.swift */,
+				593AD25B2942CDE4006595CC /* Medication+convenience.swift */,
+				5907EC3629525F26007F4D2C /* TakenDate+convenience.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		593AD253294297EC006595CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				593AD230294287AD006595CC /* AppDelegate.swift */,
+				593AD232294287AD006595CC /* SceneDelegate.swift */,
+				593AD23C294287AE006595CC /* Assets.xcassets */,
+				593AD241294287AE006595CC /* Info.plist */,
+				593AD25D2943C36D006595CC /* dateFormatter+Extras.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		593AD25429429805006595CC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				593AD236294287AD006595CC /* Main.storyboard */,
+				593AD23E294287AE006595CC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		593AD25529429830006595CC /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				593AD2572942C6DD006595CC /* MedicationController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593AD235294287AD006595CC /* ViewController.swift in Sources */,
+				593AD24B2942960E006595CC /* MedicationDetailViewController.swift in Sources */,
 				593AD231294287AD006595CC /* AppDelegate.swift in Sources */,
+				593AD249294295FE006595CC /* MedicationListViewController.swift in Sources */,
 				593AD23B294287AD006595CC /* MedicationManager.xcdatamodeld in Sources */,
+				593AD2582942C6DD006595CC /* MedicationController.swift in Sources */,
+				5907EC3729525F26007F4D2C /* TakenDate+convenience.swift in Sources */,
+				593AD25E2943C36D006595CC /* dateFormatter+Extras.swift in Sources */,
+				593AD24E294297AE006595CC /* MedicationTableViewCell.swift in Sources */,
+				593AD25C2942CDE4006595CC /* Medication+convenience.swift in Sources */,
 				593AD233294287AD006595CC /* SceneDelegate.swift in Sources */,
+				593AD25A2942C998006595CC /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8H997XH52S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MedicationManager/Info.plist;
+				INFOPLIST_FILE = MedicationManager/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedicationManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedicationManager.lfg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8H997XH52S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MedicationManager/Info.plist;
+				INFOPLIST_FILE = MedicationManager/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedicationManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedicationManager.lfg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
